@@ -4,12 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const cors = require('cors');
-/**
- * TODO:
- *  - Add a route to get all the users
- * FIXME:
- *  - Add a route to get all the users
- */
+
 var app = express();
 
 // view engine setup
